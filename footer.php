@@ -88,7 +88,10 @@
       <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
         <a href="#"><i class="bi bi-facebook"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>
-        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a  href="https://wa.me/17788893359?text=Hi%20Sandeep,%20I%20am%20interested%20in%20partnering%20with%20Great%20Ocean%20Tours." 
+  class=""
+  target="_blank"
+  aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
         <a href="#"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>

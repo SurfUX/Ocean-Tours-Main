@@ -45,238 +45,86 @@
  <?php include 'header.php'; ?>
 
     <main class="main">
-      <!-- Travel Hero Section -->
-      <section id="hotel-hero" class="hotel-hero section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-              <div class="hero-content">
-                <h1>Explore The World With Confidence & Comfort</h1>
-                <p class="lead">
-                  We create seamless travel experiences across Asia and beyond —
-                  offering guided tours, airport transfers, customized travel
-                  packages, and complete trip management for individuals and
-                  groups. Wherever you go, we take care of every detail.
+
+            <!-- Travel Hero Section -->
+      <section id="travel-hero" class="travel-hero section dark-background">
+       <div class="hero-background">
+
+  <div class="swiper hero-swiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="assets/img/hotel/chaina.jpg" alt="Travel slide">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="assets/img/hotel/beiging.jpg" alt="Travel slide">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="assets/img/hotel/xian.jpg" alt="Travel slide">
+      </div>
+     
+
+      <div class="swiper-slide">
+        <img src="assets/img/hotel/zhang.jpg" alt="Travel slide">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="assets/img/hotel/xing.webp" alt="Travel slide">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hero-overlay"></div>
+</div>
+
+        <div class="container position-relative">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <div
+                class="hero-text text-center"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <h1 class="hero-title">
+                  STRATEGIC GROUND INTELLIGENCE
+                </h1>
+                <p class="hero-subtitle">
+                 Headquartered in Hong Kong. Locally managed in the Philippines & India.
                 </p>
-                <div class="hero-features">
-                  <div class="feature-item">
-                    <i class="bi bi-globe"></i>
-                    <span>Worldwide Destinations</span>
-                  </div>
-                  <div class="feature-item">
-                    <i class="bi bi-map"></i>
-                    <span>Expert Guided Tours</span>
-                  </div>
-                  <div class="feature-item">
-                    <i class="bi bi-calendar-check"></i>
-                    <span>Customized Travel Plans</span>
-                  </div>
-                </div>
                 <div class="hero-buttons">
-                  <a 
-                      href="https://wa.me/94717758637?text=Hello%20Can%20I%20get%20this%20package%20details%20please" 
-                      class="btn btn-primary"
-                      target="_blank"
-                    >
-                      Contact on WhatsApp
-                    </a>
+                 <a 
+  href="https://wa.me/94717758637?text=Hello%20Can%20I%20get%20this%20package%20details%20please" 
+  class="btn btn-primary"
+  target="_blank"
+>
+  <i class="bi bi-whatsapp me-2"></i> REQUEST A TOUR QUOTE
+</a>
                   <a href="contact.php" class="btn btn-outline"
-                    >Start Your Journey</a
+                    >B2B AGENT LOGIN / TARIFF</a
                   >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div class="hero-images">
-                <div class="main-image">
-                  <img
-                    src="assets/img/hotel/night.jpg"
-                    alt="Global Travel Experiences"
-                    class="img-fluid"
-                  />
-                </div>
-                <div
-                  class="floating-card"
-                  data-aos="zoom-in"
-                  data-aos-delay="400"
-                >
-                  <div class="card-content">
-                    <div class="rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <h6>Trusted by Travelers Worldwide</h6>
-                    <p>
-                      "Our trip was smooth, well-organized, and unforgettable.
-                      Every destination was perfectly planned."
-                    </p>
-                    <div class="guest-info">
-                      <img
-                        src="assets/img/person/person-f-3.webp"
-                        alt="Traveler"
-                        class="guest-avatar"
-                      />
-                      <span>Michael Chen</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="hero-stats" data-aos="fade-up">
-            <div class="row text-center">
-              <div class="col-md-3 col-6">
-                <div class="stat-item">
-                  <span
-                    class="stat-number purecounter"
-                    data-purecounter-start="0"
-                    data-purecounter-end="20"
-                    data-purecounter-duration="1"
-                    >20+</span
-                  >
-                  <span class="stat-label">Destinations</span>
-                </div>
-              </div>
-              <div class="col-md-3 col-6">
-                <div class="stat-item">
-                  <span
-                    class="stat-number purecounter"
-                    data-purecounter-start="0"
-                    data-purecounter-end="1000"
-                    data-purecounter-duration="1"
-                    >1000+</span
-                  >
-                  <span class="stat-label">Happy Travelers</span>
-                </div>
-              </div>
-              <div class="col-md-3 col-6">
-                <div class="stat-item">
-                  <span
-                    class="stat-number purecounter"
-                    data-purecounter-start="0"
-                    data-purecounter-end="12"
-                    data-purecounter-duration="1"
-                    >12+</span
-                  >
-                  <span class="stat-label">Years Experience</span>
-                </div>
-              </div>
-              <div class="col-md-3 col-6">
-                <div class="stat-item">
-                  <span
-                    class="stat-number purecounter"
-                    data-purecounter-start="0"
-                    data-purecounter-end="98"
-                    data-purecounter-duration="1"
-                    >98%</span
-                  >
-                  <span class="stat-label">Customer Satisfaction</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- /Travel Hero Section -->
 
-      <!-- About Home Section -->
-      <section id="about-home" class="about-home section light-background">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-              <div class="about-content">
-                <h2>Welcome to Great Ocean Tours & Travel</h2>
-                <p class="lead">
-                  Creating unforgettable journeys across Asia and beyond since
-                  2007.
-                </p>
-                <p>
-                  Great Ocean Tours has proudly been delivering exceptional
-                  travel experiences to clients worldwide as a licensed,
-                  family-owned company based in Hong Kong. With years of
-                  expertise in the travel industry, we specialize in carefully
-                  crafted journeys across Hong Kong, Macau, China, and expanding
-                  destinations across Asia.
-                </p>
-                <p>
-                  Our mission is to become the most trusted travel partner for
-                  families, couples, and groups by offering seamless planning,
-                  personalized itineraries, reliable transportation, and
-                  memorable experiences at every destination. From short city
-                  tours to complete holiday packages, we handle every detail
-                  with care.
-                </p>
 
-                <div class="stats-row">
-                  <div class="stat-item">
-                    <div class="stat-number">2007</div>
-                    <div class="stat-label">Established</div>
-                  </div>
-                  <div class="stat-item">
-                    <div class="stat-number">1000+</div>
-                    <div class="stat-label">Happy Travelers</div>
-                  </div>
-                  <div class="stat-item">
-                    <div class="stat-number">98%</div>
-                    <div class="stat-label">Customer Satisfaction</div>
-                  </div>
-                </div>
-                <!-- End Stats Row -->
-
-                <div class="about-actions">
-                  <a href="about.php" class="btn-primary"
-                    >Learn More About Us</a
-                  >
-                  <a href="tours.html" class="btn-secondary">Explore Tours</a>
-                </div>
-              </div>
-            </div>
-            <!-- End About Content -->
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div class="about-images">
-                <div class="main-image">
-                  <img
-                    src="assets/img/hotel/chaina.jpg"
-                    alt="Great Ocean Tours Travel Experience"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="secondary-image">
-                  <img
-                    src="assets/img/hotel/philipine.jpg"
-                    alt="Comfortable Travel Arrangements"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="experience-badge">
-                  <div class="badge-content">
-                    <span class="badge-number">18+</span>
-                    <span class="badge-text">Years<br />Experience</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End About Images -->
-          </div>
-        </div>
-      </section>
-      <!-- /About Home Section -->
+  
+      <!-- /Global Destinations Cards Section -->
 
       <!-- Global Destinations Cards Section -->
-      <section id="amenities-cards" class="amenities-cards section">
+      <section id="amenities-cards" class="amenities-cards section ">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <span class="description-title">Destinations</span>
-          <h2>Our Global Travel Regions</h2>
+          <span class="description-title">Our Network</span>
+          <h2>Our Network</h2>
           <p>
-            Explore handpicked destinations across Asia and beyond with seamless
-            travel experiences, expert planning, and customized tour packages.
+            <!-- Explore handpicked destinations across Asia and beyond with seamless
+            travel experiences, expert planning, and customized tour packages. -->
           </p>
         </div>
         <!-- End Section Title -->
@@ -285,7 +133,7 @@
           <div class="row g-5">
             <!-- Hong Kong -->
             <div
-              class="col-lg-3 col-md-3"
+              class="col-lg-4 col-md-4"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -299,59 +147,19 @@
                     />
                   </div>
                   <div class="facility-info">
-                    <h4>Hong Kong</h4>
-                    <p>
-                      Discover vibrant cityscapes, cultural landmarks, skyline
-                      views, shopping hubs, and world-class experiences with
-                      guided tours and custom itineraries.
-                    </p>
-                    <div class="facility-features">
-                      <span><i class="bi bi-check-circle"></i> City Tours</span>
-                      <span><i class="bi bi-check-circle"></i> Transfers</span>
-                    </div>
+                    <h4>HK & Macau (HQ)</h4>
+                  
+                    
                   </div>
                 </div>
               </a>
             </div>
 
-            <!-- China -->
-            <div
-              class="col-lg-3 col-md-3"
-              data-aos="fade-up"
-              data-aos-delay="150"
-            >
-              <a href="https://surfux.com" class="text-decoration-none">
-                <div class="facility-card">
-                  <div class="facility-image">
-                    <img
-                      src="assets/img/hotel/chaina.jpg"
-                      alt="China Tours"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="facility-info">
-                    <h4>China</h4>
-                    <p>
-                      Experience historic wonders, modern cities, scenic
-                      landscapes, and immersive cultural journeys with
-                      professionally managed travel services.
-                    </p>
-                    <div class="facility-features">
-                      <span
-                        ><i class="bi bi-check-circle"></i> Cultural Tours</span
-                      >
-                      <span
-                        ><i class="bi bi-check-circle"></i> Custom Trips</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+         
 
             <!-- Philippines -->
             <div
-              class="col-lg-3 col-md-3"
+              class="col-lg-4 col-md-4"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -366,19 +174,32 @@
                   </div>
                   <div class="facility-info">
                     <h4>Philippines</h4>
-                    <p>
-                      Enjoy tropical beaches, island hopping adventures, nature
-                      escapes, and relaxing holiday experiences designed for
-                      every traveler.
-                    </p>
-                    <div class="facility-features">
-                      <span
-                        ><i class="bi bi-check-circle"></i> Island Tours</span
-                      >
-                      <span
-                        ><i class="bi bi-check-circle"></i> Beach Holidays</span
-                      >
-                    </div>
+                 
+                    
+                  </div>
+                </div>
+              </a>
+            </div>
+
+               <!-- China -->
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <a href="https://surfux.com" class="text-decoration-none">
+                <div class="facility-card">
+                  <div class="facility-image">
+                    <img
+                      src="assets/img/hotel/chaina.jpg"
+                      alt="China Tours"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="facility-info">
+                    <h4>Mainland China</h4>
+                    
+                   
                   </div>
                 </div>
               </a>
@@ -386,7 +207,7 @@
 
             <!-- Indian Subcontinent -->
             <div
-              class="col-lg-3 col-md-3"
+              class="col-lg-4 col-md-4"
               data-aos="fade-up"
               data-aos-delay="250"
             >
@@ -401,19 +222,54 @@
                   </div>
                   <div class="facility-info">
                     <h4>Indian Subcontinent</h4>
-                    <p>
-                      Explore diverse cultures, heritage sites, spiritual
-                      journeys, scenic landscapes, and curated travel
-                      experiences across the region.
-                    </p>
-                    <div class="facility-features">
-                      <span
-                        ><i class="bi bi-check-circle"></i> Heritage Tours</span
-                      >
-                      <span
-                        ><i class="bi bi-check-circle"></i> Group Travel</span
-                      >
-                    </div>
+                   
+                   
+                  </div>
+                </div>
+              </a>
+            </div>
+              <!-- Indian Subcontinent -->
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <a href="https://surfux.com" class="text-decoration-none">
+                <div class="facility-card">
+                  <div class="facility-image">
+                    <img
+                      src="assets/img/hotel/mice.jpg"
+                      alt="Indian Subcontinent Tours"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="facility-info">
+                    <h4>MICE & Events</h4>
+                    
+                   
+                  </div>
+                </div>
+              </a>
+            </div>
+              <!-- Indian Subcontinent -->
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <a href="https://surfux.com" class="text-decoration-none">
+                <div class="facility-card">
+                  <div class="facility-image">
+                    <img
+                      src="assets/img/hotel/global.jpg"
+                      alt="Indian Subcontinent Tours"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="facility-info">
+                    <h4>Global Portfolio</h4>
+                   
+                   
                   </div>
                 </div>
               </a>
@@ -423,70 +279,7 @@
       </section>
       <!-- /Global Destinations Cards Section -->
 
-      <section
-        id="call-to-action"
-        class="call-to-action section light-background"
-      >
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-              <div class="content">
-                <h2>Our Vision – Connecting the World Through Travel</h2>
-                <p>
-                  At Great Ocean Tours & Travel, our vision is to become a
-                  globally trusted travel partner, creating seamless journeys
-                  across continents while delivering personalized, reliable, and
-                  unforgettable experiences for every traveler. We believe
-                  travel should be stress-free, inspiring, and accessible to
-                  all.
-                </p>
-                <ul class="features-list">
-                  <li>
-                    <i class="bi bi-check-circle"></i> Deliver world-class
-                    travel experiences across multiple regions
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Build long-term trust
-                    through quality and service excellence
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Offer customized journeys
-                    for every traveler’s needs
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Expand globally while
-                    maintaining personal care
-                  </li>
-                </ul>
-                <div class="cta-buttons">
-                  <a href="tours.html" class="btn-primary"
-                    >Explore Our Destinations</a
-                  >
-                  <a href="contact.html" class="btn-secondary"
-                    >Plan Your Trip</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div class="image-wrapper">
-                <img
-                  src="assets/img/hotel/misc-3.webp"
-                  alt="Global Travel Experience"
-                  class="img-fluid"
-                />
-                <div class="overlay-content">
-                  <div class="special-offer">
-                    <span class="label">Since 2007</span>
-                    <span class="discount">Trusted Travel Partner</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+   
 
      <!-- Contact Section -->
 <section id="amenities-cards" class="amenities-cards section">
@@ -623,12 +416,22 @@
 <?php include 'footer.php'; ?>
 
     <!-- Scroll Top -->
-    <a
+   <a
       href="#"
       id="scroll-top"
       class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    ></a> 
+
+    <a 
+  href="https://wa.me/17788893359?text=Hi%20Sandeep,%20I%20am%20interested%20in%20partnering%20with%20Great%20Ocean%20Tours." 
+  class="floating-whatsapp"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <i class="bi bi-whatsapp"></i>
+</a>
+
 
     <!-- Preloader -->
     <div id="preloader"></div>
@@ -645,5 +448,20 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+  new Swiper(".hero-swiper", {
+    loop: true,
+    speed: 1200,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    effect: "fade",
+    fadeEffect: {
+      crossFade: true
+    }
+  });
+</script>
   </body>
 </html>

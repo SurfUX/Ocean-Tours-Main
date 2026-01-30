@@ -13,21 +13,19 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+
 :root {
-  --default-font:
-    "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Josefin Sans", sans-serif;
-  --nav-font: "Poppins", sans-serif;
+  --default-font: "Montserrat", Arial, sans-serif;
+  --heading-font: "Montserrat", Arial, sans-serif;
+  --nav-font: "Montserrat", Arial, sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #40524d; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #0d1f1a; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #141726; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --background-color: #001427; /* Background color for the entire website, including individual sections */
+  --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #d4af37; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #d4af37; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -50,14 +48,14 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f1f6f5;
+  --background-color: #001427;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #141726;
+  --background-color: #001427;
   --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --heading-color: #d4af37;
   --surface-color: #2e2b28;
   --contrast-color: #ffffff;
 }
@@ -148,14 +146,257 @@ h6 {
     transform: rotate(360deg);
   }
 }
+.travel-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 120px 0 60px 0;
+}
 
+.travel-hero .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.travel-hero .hero-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.travel-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--background-color), transparent 60%) 0%,
+    color-mix(in srgb, var(--background-color), transparent 80%) 50%,
+    color-mix(in srgb, var(--background-color), transparent 90%) 100%
+  );
+  z-index: 1;
+}
+
+.travel-hero .hero-text .hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: var(--heading-color) !important;
+}
+
+.travel-hero .hero-text .hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.travel-hero .hero-text .hero-buttons .btn {
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.travel-hero .hero-text .hero-buttons .btn.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.travel-hero .hero-text .hero-buttons .btn.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  transform: translateY(-2px);
+}
+
+.travel-hero .hero-text .hero-buttons .btn.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.travel-hero .hero-text .hero-buttons .btn.btn-outline:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  transform: translateY(-2px);
+  border-color: var(--accent-color);
+}
+
+.travel-hero .booking-form-wrapper .booking-form {
+  background-color: var(--surface-color);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px
+    color-mix(in srgb, var(--default-color), transparent 85%);
+  backdrop-filter: blur(10px);
+}
+
+.travel-hero .booking-form-wrapper .booking-form .form-title {
+  color: var(--heading-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.travel-hero .booking-form-wrapper .booking-form label {
+  color: var(--heading-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.travel-hero .booking-form-wrapper .booking-form .form-control,
+.travel-hero .booking-form-wrapper .booking-form .form-select {
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 14px;
+  color: var(--default-color);
+  background-color: var(--surface-color);
+  transition: all 0.3s ease;
+}
+
+.travel-hero .booking-form-wrapper .booking-form .form-control:focus,
+.travel-hero .booking-form-wrapper .booking-form .form-select:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.2rem
+    color-mix(in srgb, var(--accent-color), transparent 75%);
+  outline: none;
+}
+
+.travel-hero .booking-form-wrapper .booking-form .form-control::placeholder,
+.travel-hero .booking-form-wrapper .booking-form .form-select::placeholder {
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+
+.travel-hero .booking-form-wrapper .booking-form .btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.travel-hero .booking-form-wrapper .booking-form .btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  transform: translateY(-1px);
+}
+
+.travel-hero .hero-background .swiper,
+.travel-hero .hero-background .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.travel-hero .hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Force hero section full screen */
+.travel-hero {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+/* Swiper must fill hero */
+.travel-hero .hero-background,
+.travel-hero .hero-background .swiper,
+.travel-hero .hero-background .swiper-wrapper,
+.travel-hero .hero-background .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+/* Image always covers screen */
+.travel-hero .hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.travel-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Dark overlay for text readability */
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65));
+
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .travel-hero .hero-text {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .travel-hero .hero-text .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .travel-hero .hero-text .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .travel-hero .booking-form {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .travel-hero .hero-text .hero-title {
+    font-size: 2rem;
+  }
+
+  .travel-hero .hero-text .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .travel-hero .hero-text .hero-buttons .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .travel-hero .hero-text .hero-buttons .btn:last-child {
+    margin-bottom: 0;
+  }
+
+  .travel-hero .booking-form-wrapper .booking-form {
+    padding: 1.5rem;
+  }
+}
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.pt-0 {
+  padding-top: 0 !important;
+}
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #141726;
-  --heading-color: #ffffff;
-  color: var(--default-color);
+  color: var(--contrast-color);
   transition: all 0.5s;
   z-index: 997;
   background-color: var(--background-color);
@@ -226,7 +467,7 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--contrast-color);
 }
 
 .scrolled .header {
@@ -685,6 +926,43 @@ h6 {
   visibility: visible;
   opacity: 1;
   bottom: 15px;
+}
+/* Floating WhatsApp Button */
+.floating-whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  z-index: 9999;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .floating-whatsapp {
+    bottom: 18px;
+    right: 18px;
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1901,12 +2179,13 @@ section,
 # Amenities Cards Section
 --------------------------------------------------------------*/
 .amenities-cards .facility-card {
-  background-color: var(--surface-color);
+  background-color: var(--background-color);
   border-radius: 16px;
   height: 100%;
   overflow: hidden;
   box-shadow: 0 5px 25px
     color-mix(in srgb, var(--default-color), transparent 88%);
+  border: solid 1px var(--accent-color);
   transition: all 0.4s ease;
   position: relative;
 }
@@ -6503,7 +6782,7 @@ section,
 }
 
 .hotel-location .attractions-section .attraction-item {
-  background: var(--surface-color);
+  background: var(--background-color);
   border-radius: 18px;
   overflow: hidden;
   margin-bottom: 30px;
@@ -6722,10 +7001,12 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .contact-form-wrapper {
-  background-color: var(--surface-color);
+  background-color: var(--background-color);
   border-radius: 10px;
   padding: 40px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 5px 25px
+    color-mix(in srgb, var(--default-color), transparent 88%);
+  border: solid 1px var(--accent-color);
   margin-bottom: 50px;
 }
 
@@ -6755,7 +7036,7 @@ section,
   border-radius: 8px;
   padding: 12px 20px;
   font-size: 15px;
-  background-color: var(--surface-color);
+  background-color: var(--background-color);
   color: var(--default-color);
   transition: 0.3s;
   margin-bottom: 15px;
@@ -6796,7 +7077,9 @@ section,
 }
 
 .contact .contact-info-card {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
+  box-shadow: 0 5px 25px
+    color-mix(in srgb, var(--default-color), transparent 88%);
+  border: solid 1px var(--accent-color);
   border-radius: 8px;
   padding: 30px;
   display: flex;

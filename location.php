@@ -64,8 +64,8 @@
       <div class="row">
         <div class="col-12">
           <div class="section-header">
-            <h3>Popular Locations</h3>
-            <p>Explore iconic destinations with curated tours and travel experiences</p>
+            <h3>Popular Iteneries</h3>
+            
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
               </div>
               <div class="attraction-info">
                 <h5>Beijing</h5>
-                <p>Explore the Great Wall, Forbidden City, rich culture and historic landmarks.</p>
+               
               </div>
             </div>
           </a>
@@ -96,7 +96,7 @@
               </div>
               <div class="attraction-info">
                 <h5>Shanghai</h5>
-                <p>Discover modern skylines, shopping districts, and vibrant city life.</p>
+               
               </div>
             </div>
           </a>
@@ -111,7 +111,7 @@
               </div>
               <div class="attraction-info">
                 <h5>Xian</h5>
-                <p>Home of the Terracotta Army and ancient Chinese heritage sites.</p>
+                
               </div>
             </div>
           </a>
@@ -126,7 +126,7 @@
               </div>
               <div class="attraction-info">
                 <h5>Zhangjiajie</h5>
-                <p>Famous for dramatic mountains, glass bridges, and natural wonders.</p>
+                
               </div>
             </div>
           </a>
@@ -141,7 +141,7 @@
               </div>
               <div class="attraction-info">
                 <h5>Chengdu</h5>
-                <p>Visit giant panda reserves and enjoy Sichuan culture and cuisine.</p>
+               
               </div>
             </div>
           </a>
@@ -156,7 +156,7 @@
               </div>
               <div class="attraction-info">
                 <h5>Guilin</h5>
-                <p>Scenic rivers, limestone mountains, and peaceful landscapes.</p>
+                
               </div>
             </div>
           </a>
