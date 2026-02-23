@@ -1,99 +1,112 @@
 <footer id="footer" class="footer position-relative dark-background">
-  <div class="footer-top">
+  <div class="footer-newsletter">
     <div class="container">
-      <div class="row gy-4">
-
-        <!-- Company Info -->
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Great Ocean Tours & Travel</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Licensed Travel Company</p>
-            <p>Based in Hong Kong • Serving Worldwide</p>
-            <p class="mt-3">
-              <strong>Phone:</strong> <span>+852 6106 6244</span>
-            </p>
-            <p><strong>Email:</strong> <span>b2bin@got-hk.com</span></p>
-          </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-6">
+          <h4>Stay Connected</h4>
+          <p>
+            Subscribe to receive travel insights, destination updates, and
+            exclusive China tour offers from Great Ocean Tours.
+          </p>
+          <form
+            action="forms/newsletter.php"
+            method="post"
+            class="php-email-form"
+          >
+            <div class="newsletter-form">
+              <input type="email" name="email" placeholder="Your email address" />
+              <input type="submit" value="Subscribe" />
+            </div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">
+              Thank you for subscribing. We’ll be in touch soon!
+            </div>
+          </form>
         </div>
-
-        <!-- Quick Links -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="tours.html">Destinations</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-
-        <!-- Travel Services -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Guided Tours</a></li>
-            <li><a href="#">Airport Transfers</a></li>
-            <li><a href="#">Custom Travel Packages</a></li>
-            <li><a href="#">Group Tours</a></li>
-            <li><a href="#">Hotel & Transport Booking</a></li>
-          </ul>
-        </div>
-
-        <!-- Destinations -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Destinations</h4>
-          <ul>
-            <li><a href="#">Hong Kong</a></li>
-            <li><a href="#">China</a></li>
-            <li><a href="#">Philippines</a></li>
-            <li><a href="#">Indian Subcontinent</a></li>
-            <li><a href="#">Custom Worldwide Trips</a></li>
-          </ul>
-        </div>
-
-        <!-- Trust & Info -->
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="#">Why Choose Us</a></li>
-            <li><a href="#">Travel Policies</a></li>
-            <li><a href="#">Customer Reviews</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Terms & Privacy</a></li>
-          </ul>
-        </div>
-
       </div>
     </div>
   </div>
 
-  <!-- Bottom Bar -->
-  <div class="copyright text-center">
-    <div
-      class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
-    >
-      <div class="d-flex flex-column align-items-center align-items-lg-start">
-        <div>
-          © Copyright <strong><span>Great Ocean Tours & Travel</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="https://surfux.com/">SurfUX</a>
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="index.php" class="d-flex align-items-center">
+          <span class="sitename">Great Ocean Tours</span>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>Headquartered in Hong Kong</p>
+          <p>Serving China & Asia-Pacific</p>
+          <p class="mt-3">
+            <strong>Phone:</strong> <span>+852 XXX XXXX</span>
+          </p>
+          <p><strong>Email:</strong> <span>info@greatoceantours.com</span></p>
         </div>
       </div>
 
-      <!-- Social Links -->
-      <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-        <a href="#"><i class="bi bi-facebook"></i></a>
-        <a href="#"><i class="bi bi-instagram"></i></a>
-        <a  href="https://wa.me/17788893359?text=Hi%20Sandeep,%20I%20am%20interested%20in%20partnering%20with%20Great%20Ocean%20Tours." 
-  class=""
-  target="_blank"
-  aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
-        <a href="#"><i class="bi bi-linkedin"></i></a>
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="index.php">Home</a></li>
+          <li>
+            <i class="bi bi-chevron-right"></i> <a href="about.php">About Us</a>
+          </li>
+          <li>
+            <i class="bi bi-chevron-right"></i> <a href="tours.php">Tours</a>
+          </li>
+          <li>
+            <i class="bi bi-chevron-right"></i>
+            <a href="terms.php">Terms & Conditions</a>
+          </li>
+        </ul>
       </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li>
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">China Leisure Tours</a>
+          </li>
+          <li>
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">B2B Travel Solutions</a>
+          </li>
+          <li>
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">Custom Itineraries</a>
+          </li>
+          <li>
+            <i class="bi bi-chevron-right"></i>
+            <a href="#">Ground Handling</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <h4>Follow Us</h4>
+        <p>
+          Follow Great Ocean Tours for destination highlights, travel tips, and
+          the latest updates across China and beyond.
+        </p>
+        <div class="social-links d-flex">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>
+      © <span>Copyright</span>
+      <strong class="px-1 sitename">Great Ocean Tours</strong>
+      <span>All Rights Reserved</span>
+    </p>
+    <div class="credits">
+      Designed by <a href="https://www.surfux.com/">surfUX</a>
     </div>
   </div>
 </footer>

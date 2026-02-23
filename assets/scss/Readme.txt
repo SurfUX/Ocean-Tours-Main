@@ -1,2 +1,2 @@
 The .scss (Sass) files are only available in the pro version.
-You can buy it from: https://bootstrapmade.com/grandoria-bootstrap-hotel-template/
+You can buy it from: https://bootstrapmade.com/tour-bootstrap-travel-website-template/
