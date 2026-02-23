@@ -1,5 +1,5 @@
 <footer id="footer" class="footer position-relative dark-background">
-  <div class="footer-newsletter">
+  <!-- <div class="footer-newsletter">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-6">
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container footer-top">
     <div class="row gy-4">
@@ -38,7 +38,7 @@
           <p>Headquartered in Hong Kong</p>
           <p>Serving China & Asia-Pacific</p>
           <p class="mt-3">
-            <strong>Phone:</strong> <span>+852 XXX XXXX</span>
+            <strong>Phone:</strong> <span>+1 778-889-3359</span>
           </p>
           <p><strong>Email:</strong> <span>info@greatoceantours.com</span></p>
         </div>
@@ -90,7 +90,7 @@
           the latest updates across China and beyond.
         </p>
         <div class="social-links d-flex">
-          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
           <a href="#"><i class="bi bi-facebook"></i></a>
           <a href="#"><i class="bi bi-instagram"></i></a>
           <a href="#"><i class="bi bi-linkedin"></i></a>

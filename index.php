@@ -89,15 +89,14 @@
                 </p>
                 <div class="hero-buttons">
                   <a
-                    href="https://wa.me/94717758637?text=Hello%20Can%20I%20get%20this%20package%20details%20please"
+                      href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21"
+                      target="_blank"
                     class="btn btn-primary"
                     target="_blank"
                   >
                     <i class="bi bi-whatsapp me-2"></i> REQUEST A TOUR QUOTE
                   </a>
-                  <a href="contact.php" class="btn btn-outline">
-                    B2B AGENT LOGIN / TARIFF
-                  </a>
+                  <!--  -->
                 </div>
               </div>
             </div>
@@ -138,7 +137,7 @@
                       including the Great Wall, Forbidden City, and Temple of
                       Heaven.
                     </p>
-                    <div class="destination-meta">
+                    <!-- <div class="destination-meta">
                       <div class="tours-count">
                         <i class="bi bi-collection"></i>
                         <span>18 Packages</span>
@@ -151,8 +150,8 @@
                     <div class="price-info">
                       <span class="starting-from">Starting from</span>
                       <span class="amount">$1,250</span>
-                    </div>
-                    <a href="destination-details.html" class="explore-btn">
+                    </div> -->
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="explore-btn">
                       <span>Explore Now</span>
                       <i class="bi bi-arrow-right"></i>
                     </a>
@@ -182,7 +181,7 @@
                         A dynamic blend of modern skylines, luxury shopping, and
                         historic waterfronts along the Bund.
                       </p>
-                      <div class="stats-row">
+                      <!-- <div class="stats-row">
                         <span class="tour-count">
                           <i class="bi bi-calendar-check"></i> 14 Tours
                         </span>
@@ -190,8 +189,8 @@
                           <i class="bi bi-star-fill"></i> 4.8
                         </span>
                         <span class="price">from $980</span>
-                      </div>
-                      <a href="destination-details.html" class="quick-link">
+                      </div> -->
+                      <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="quick-link">
                         View Details <i class="bi bi-chevron-right"></i>
                       </a>
                     </div>
@@ -216,7 +215,7 @@
                         Walk through ancient history with the world-famous
                         Terracotta Warriors and the historic Silk Road heritage.
                       </p>
-                      <div class="stats-row">
+                      <!-- <div class="stats-row">
                         <span class="tour-count">
                           <i class="bi bi-calendar-check"></i> 10 Tours
                         </span>
@@ -224,8 +223,8 @@
                           <i class="bi bi-star-fill"></i> 4.7
                         </span>
                         <span class="price">from $820</span>
-                      </div>
-                      <a href="destination-details.html" class="quick-link">
+                      </div> -->
+                      <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="quick-link">
                         View Details <i class="bi bi-chevron-right"></i>
                       </a>
                     </div>
@@ -251,7 +250,7 @@
                         Explore dramatic sandstone mountains, glass bridges, and
                         breathtaking natural scenery made famous worldwide.
                       </p>
-                      <div class="stats-row">
+                      <!-- <div class="stats-row">
                         <span class="tour-count">
                           <i class="bi bi-calendar-check"></i> 8 Adventures
                         </span>
@@ -259,8 +258,8 @@
                           <i class="bi bi-star-fill"></i> 4.9
                         </span>
                         <span class="price">from $1,050</span>
-                      </div>
-                      <a href="destination-details.html" class="quick-link">
+                      </div> -->
+                      <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="quick-link">
                         View Details <i class="bi bi-chevron-right"></i>
                       </a>
                     </div>
@@ -301,19 +300,19 @@
                     class="img-fluid"
                     loading="lazy"
                   />
-                  <div class="tour-badge">Top Rated</div>
-                  <div class="tour-price">$1,480</div>
+                  <div class="tour-badge">Top Rated</div> 
+                  <!-- <div class="tour-price">$1,480</div> -->
                 </div>
                 <div class="tour-content">
                   <h4>Beijing &amp; Shanghai Highlights</h4>
-                  <div class="tour-meta">
+                  <!-- <div class="tour-meta">
                     <span class="duration"
                       ><i class="bi bi-clock"></i> 5 Days</span
                     >
                     <span class="group-size"
                       ><i class="bi bi-people"></i> Max 10</span
                     >
-                  </div>
+                  </div> -->
                   <p>
                     Experience China’s past and future in one journey, from the
                     Great Wall and Forbidden City to Shanghai’s modern skyline.
@@ -323,7 +322,7 @@
                     <span>Shanghai</span>
                   </div>
                   <div class="tour-action">
-                    <a href="booking.html" class="btn-book">Book Now</a>
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="btn-book">Book Now</a>
                     <div class="tour-rating">
                       <i class="bi bi-star-fill"></i
                       ><i class="bi bi-star-fill"></i>
@@ -353,18 +352,18 @@
                     loading="lazy"
                   />
                   <div class="tour-badge cultural">Culture &amp; History</div>
-                  <div class="tour-price">$920</div>
+                  <!-- <div class="tour-price">$920</div> -->
                 </div>
                 <div class="tour-content">
                   <h4>Ancient Xi’an Discovery</h4>
-                  <div class="tour-meta">
+                  <!-- <div class="tour-meta">
                     <span class="duration"
                       ><i class="bi bi-clock"></i> 3 Days</span
                     >
                     <span class="group-size"
                       ><i class="bi bi-people"></i> Max 12</span
                     >
-                  </div>
+                  </div> -->
                   <p>
                     Step back in time with visits to the Terracotta Warriors,
                     Ancient City Wall, and Silk Road heritage sites.
@@ -374,7 +373,7 @@
                     <span>Terracotta Army</span>
                   </div>
                   <div class="tour-action">
-                    <a href="booking.html" class="btn-book">Book Now</a>
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="btn-book">Book Now</a>
                     <div class="tour-rating">
                       <i class="bi bi-star-fill"></i
                       ><i class="bi bi-star-fill"></i>
@@ -404,18 +403,18 @@
                     loading="lazy"
                   />
                   <div class="tour-badge adventure">Adventure</div>
-                  <div class="tour-price">$1,150</div>
+                  <!-- <div class="tour-price">$1,150</div> -->
                 </div>
                 <div class="tour-content">
                   <h4>Zhangjiajie Nature Adventure</h4>
-                  <div class="tour-meta">
+                  <!-- <div class="tour-meta">
                     <span class="duration"
                       ><i class="bi bi-clock"></i> 3 Days</span
                     >
                     <span class="group-size"
                       ><i class="bi bi-people"></i> Max 8</span
                     >
-                  </div>
+                  </div> -->
                   <p>
                     Explore dramatic sandstone pillars, glass bridges, and
                     breathtaking national parks made famous by Avatar.
@@ -425,7 +424,7 @@
                     <span>National Park</span>
                   </div>
                   <div class="tour-action">
-                    <a href="booking.html" class="btn-book">Book Now</a>
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="btn-book">Book Now</a>
                     <div class="tour-rating">
                       <i class="bi bi-star-fill"></i
                       ><i class="bi bi-star-fill"></i>
@@ -455,18 +454,18 @@
                     loading="lazy"
                   />
                   <div class="tour-badge">Family Friendly</div>
-                  <div class="tour-price">$1,280</div>
+                  <!-- <div class="tour-price">$1,280</div> -->
                 </div>
                 <div class="tour-content">
                   <h4>Chengdu Panda &amp; City Tour</h4>
-                  <div class="tour-meta">
+                  <!-- <div class="tour-meta">
                     <span class="duration"
                       ><i class="bi bi-clock"></i> 4 Days</span
                     >
                     <span class="group-size"
                       ><i class="bi bi-people"></i> Max 15</span
                     >
-                  </div>
+                  </div> -->
                   <p>
                     Meet giant pandas, enjoy relaxed city life, and taste
                     authentic Sichuan cuisine in this family-friendly journey.
@@ -476,7 +475,7 @@
                     <span>Panda Base</span>
                   </div>
                   <div class="tour-action">
-                    <a href="booking.html" class="btn-book">Book Now</a>
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="btn-book">Book Now</a>
                     <div class="tour-rating">
                       <i class="bi bi-star-fill"></i
                       ><i class="bi bi-star-fill"></i>
@@ -506,18 +505,18 @@
                     loading="lazy"
                   />
                   <div class="tour-badge honeymoon">Honeymoon</div>
-                  <div class="tour-price">$1,690</div>
+                  <!-- <div class="tour-price">$1,690</div> -->
                 </div>
                 <div class="tour-content">
                   <h4>Romantic Guilin &amp; Li River</h4>
-                  <div class="tour-meta">
+                  <!-- <div class="tour-meta">
                     <span class="duration"
                       ><i class="bi bi-clock"></i> 4 Days</span
                     >
                     <span class="group-size"
                       ><i class="bi bi-people"></i> Max 6</span
                     >
-                  </div>
+                  </div> -->
                   <p>
                     Enjoy serene landscapes, river cruises, and unforgettable
                     moments surrounded by Guilin’s iconic karst mountains.
@@ -527,7 +526,7 @@
                     <span>Li River</span>
                   </div>
                   <div class="tour-action">
-                    <a href="booking.html" class="btn-book">Book Now</a>
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="btn-book">Book Now</a>
                     <div class="tour-rating">
                       <i class="bi bi-star-fill"></i
                       ><i class="bi bi-star-fill"></i>
@@ -557,18 +556,18 @@
                     loading="lazy"
                   />
                   <div class="tour-badge limited">Seasonal</div>
-                  <div class="tour-price">$1,850</div>
+                  <!-- <div class="tour-price">$1,850</div> -->
                 </div>
                 <div class="tour-content">
                   <h4>Harbin Ice &amp; Snow Festival</h4>
-                  <div class="tour-meta">
+                  <!-- <div class="tour-meta">
                     <span class="duration"
                       ><i class="bi bi-clock"></i> 4 Days</span
                     >
                     <span class="group-size"
                       ><i class="bi bi-people"></i> Max 10</span
                     >
-                  </div>
+                  </div> -->
                   <p>
                     Witness a magical winter wonderland featuring ice palaces,
                     sculptures, and one of China’s most unique festivals.
@@ -578,7 +577,7 @@
                     <span>Ice Festival</span>
                   </div>
                   <div class="tour-action">
-                    <a href="booking.html" class="btn-book">Book Now</a>
+                    <a href="https://wa.me/17788893359?text=Hello%20Great%20Ocean%20Tours%20%F0%9F%91%8B%0AI%E2%80%99m%20interested%20in%20booking%20a%20China%20tour.%0ACould%20you%20please%20share%20available%20packages%2C%20dates%2C%20and%20pricing%3F%0AThank%20you%21" target="_blank" class="btn-book">Book Now</a>
                     <div class="tour-rating">
                       <i class="bi bi-star-fill"></i
                       ><i class="bi bi-star-fill"></i>
@@ -595,7 +594,7 @@
           </div>
 
           <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="500">
-            <a href="tours.html" class="btn-view-all">View All Tours</a>
+            <a href="tours.php" class="btn-view-all">View All Tours</a>
           </div>
         </div>
       </section>
