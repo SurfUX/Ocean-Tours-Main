@@ -1,6 +1,6 @@
 <?php
 
-$to = "gihan@surfux.com";
+$to = "b2bin@got-hk.com, gihansupunkdu@gmail.com";
 
 $name    = $_POST['name'] ?? '';
 $email   = $_POST['email'] ?? '';
