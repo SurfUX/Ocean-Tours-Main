@@ -1,29 +1,53 @@
 <?php
 
-$to = "b2bin@got-hk.com, gihansupunkdu@gmail.com";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-$name    = $_POST['name'] ?? '';
-$email   = $_POST['email'] ?? '';
-$subject = $_POST['subject'] ?? 'New Contact Form Message';
-$message = $_POST['message'] ?? '';
+require '../assets/vendor/phpmailer/Exception.php';
+require '../assets/vendor/phpmailer/PHPMailer.php';
+require '../assets/vendor/phpmailer/SMTP.php';
 
-if (empty($name) || empty($email) || empty($message)) {
-    echo "Please fill all required fields.";
-    exit;
-}
+$mail = new PHPMailer(true);
 
-$headers  = "From: $name <$email>\r\n";
-$headers .= "Reply-To: $email\r\n";
-$headers .= "Content-Type: text/plain; charset=UTF-8";
+try {
+    // SMTP settings
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.hostinger.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'contact@gochinaholidays.com';   // your email
+    $mail->Password   = 'GOTChina2026#';          // your email password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port       = 587;
 
-$body  = "New Contact Form Submission\n\n";
-$body .= "Name: $name\n";
-$body .= "Email: $email\n";
-$body .= "Subject: $subject\n\n";
-$body .= "Message:\n$message\n";
+    // Email headers
+    $mail->setFrom('contact@gochinaholidays.com', 'Ocean Tour China');
+    $mail->addReplyTo($_POST['email'], $_POST['name']);
 
-if (mail($to, $subject, $body, $headers)) {
+    // Recipients
+    $mail->addAddress('gihan@surfux.com');
+    $mail->addAddress('b2bin@got-hk.com');
+    $mail->addAddress('gihansupunkdu@gmail.com');
+
+    // Content
+    $mail->isHTML(true);
+    $mail->Subject = $_POST['subject'] ?? 'New Contact Form Message';
+
+    $mail->Body = "
+        <h3>New Contact Form Submission</h3>
+        <p><strong>Name:</strong> {$_POST['name']}</p>
+        <p><strong>Email:</strong> {$_POST['email']}</p>
+        <p><strong>Message:</strong><br>{$_POST['message']}</p>
+    ";
+
+    $mail->AltBody = "
+        Name: {$_POST['name']}
+        Email: {$_POST['email']}
+        Message: {$_POST['message']}
+    ";
+
+    $mail->send();
     echo "OK";
-} else {
-    echo "Failed to send message. Please try again later.";
+
+} catch (Exception $e) {
+    echo "Message could not be sent.";
 }
