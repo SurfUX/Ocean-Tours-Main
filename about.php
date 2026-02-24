@@ -48,7 +48,7 @@
   <div
     class="page-title dark-background"
     data-aos="fade"
-    style="background-image: url(assets/img/travel/showcase-8.webp)"
+    style="background-image: url(assets/img/travel/misc-8.webp)"
   >
     <div class="container position-relative">
       <h1>About Us</h1>
@@ -71,7 +71,7 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
       <div class="row align-items-center mb-5">
-        <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="300">
+        <!-- <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="300">
           <div class="hero-image">
             <img
               src="assets/img/travel/showcase-7.webp"
@@ -89,10 +89,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div
-          class="col-lg-6 offset-lg-1"
+          class="col-lg-12 offset-lg-1"
           data-aos="slide-left"
           data-aos-delay="400"
         >

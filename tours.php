@@ -49,7 +49,7 @@
   <div
     class="page-title dark-background"
     data-aos="fade"
-    style="background-image: url(assets/img/travel/showcase-8.webp)"
+    style="background-image: url(assets/img/travel/misc-8.webp)"
   >
     <div class="container position-relative">
       <h1>Tours</h1>

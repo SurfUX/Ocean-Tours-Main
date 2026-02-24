@@ -40,7 +40,7 @@
           <p class="mt-3">
             <strong>Phone:</strong> <span>+1 778-889-3359</span>
           </p>
-          <p><strong>Email:</strong> <span>info@greatoceantours.com</span></p>
+          <p><strong>Email:</strong> <span>b2bin@got-hk.com</span></p>
         </div>
       </div>
 
@@ -56,7 +56,7 @@
           </li>
           <li>
             <i class="bi bi-chevron-right"></i>
-            <a href="terms.php">Terms & Conditions</a>
+            <a href="contact.php">Terms & Conditions</a>
           </li>
         </ul>
       </div>
@@ -66,19 +66,19 @@
         <ul>
           <li>
             <i class="bi bi-chevron-right"></i>
-            <a href="#">China Leisure Tours</a>
+            <a href="contact.php">China Leisure Tours</a>
           </li>
           <li>
             <i class="bi bi-chevron-right"></i>
-            <a href="#">B2B Travel Solutions</a>
+            <a href="contact.php">B2B Travel Solutions</a>
           </li>
           <li>
             <i class="bi bi-chevron-right"></i>
-            <a href="#">Custom Itineraries</a>
+            <a href="contact.php">Custom Itineraries</a>
           </li>
           <li>
             <i class="bi bi-chevron-right"></i>
-            <a href="#">Ground Handling</a>
+            <a href="contact.php">Ground Handling</a>
           </li>
         </ul>
       </div>
